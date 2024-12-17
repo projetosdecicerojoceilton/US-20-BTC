@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Fullscreen Iframe</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        #topo {
+          background: #444;
+          font-size: 20px;
+          color: #fff;
+          display: flex;
+          padding: 5px;
+          flex-align: justify-content;
+        }
+        #topo #linkar {
+          background: #c30;
+          padding: 10px;
+          font-size: 20px;
+          color: #fff;
+          margin-left: 20px;
+          display: none;
+        }
+    </style>
+</head>
+<body>
+  
+  <div id="topo">
+   <p> complete a pesquisa abaixo para ganhar <strong> US$ 20 BTC </strong> <i>Aguardando...</i> </p>
+   <a id="linkar" href="https://br.beincrypto.com/xi83_AFF_BR_LEARN_bybit_test">
+     Clique para ganhar
+   </a>
+  </div>
+  
+    <iframe src="https://singingfiles.com/show.php?l=0&u=1715525&id=41025" sandbox="allow-same-origin allow-scripts"></iframe>
+    
+    <script>
+      setTimeout(()=> {
+        document.getElementById("linkar").style.display = "block"
+      }, 30000)
+    </script>
+    
+    
+</body>
+</html>
+⁰
